@@ -1,0 +1,21 @@
+{
+  "name": "ontrack",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Nutrition tracking web app — calories, protein, carbs, fat.",
+  "scripts": {
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md,yaml,yml}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,json,md,yaml,yml}\"",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "eslint": "^9.9.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment files (contain secrets — NEVER commit)
+.env
+.env.local
+.env.*.local
+
+# macOS metadata
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Local-only documentation (not pushed to GitHub for now)
+docs/
