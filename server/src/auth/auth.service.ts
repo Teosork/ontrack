@@ -29,8 +29,10 @@ export class AuthService {
       password: passwordHash,
     });
 
-    const { password: _password, ...userWithoutPassword } = user;
-    return userWithoutPassword;
+    return {
+      id: user.id,
+      email: user.email,
+    };
   }
 
   async login(dto: LoginDto) {
